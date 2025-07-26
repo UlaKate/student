@@ -1,6 +1,6 @@
 package github;
 
-import com.codeborne.selenide.SelenideElement;
+
 import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
@@ -14,7 +14,7 @@ public class CheckSoftAssertions {
     @BeforeAll
     static void Sizebrouser(){
         Configuration.holdBrowserOpen = true;
-        Configuration.browserSize = "1920x1200";}
+        Configuration.browserSize = "1920x1300";}
 
     @Test
 
